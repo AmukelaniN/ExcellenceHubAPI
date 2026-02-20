@@ -1,8 +1,8 @@
-Problem Statement
+## Problem Statement
 
 Students face fragmented access to bursaries, career guidance, and job opportunities. Professionals struggle to mentor and engage with emerging talent, while companies find it difficult to establish a reliable recruitment pipeline. An integrated platform is needed to bridge this gap.
 
-Solution Overview
+## Solution Overview
 
 The Excellence Hub API provides backend support for a platform that:
 
@@ -14,8 +14,9 @@ Supports companies in recruiting talent, posting jobs, and managing sponsorships
 
 Through a unified system, all stakeholders benefit with streamlined access to opportunities and resources.
 
-Functional Requirements
-Home Page
+# Functional Requirement
+
+## Home Page
 
 Hero section content and CTA buttons
 
@@ -25,7 +26,7 @@ Embedded videos or animated explainers
 
 Testimonials management
 
-About Us
+## About Us
 
 Vision, mission, and values endpoints
 
@@ -33,7 +34,7 @@ Team member profiles with bios and images
 
 Advisory board information (future expansion)
 
-Services
+## Services
 
 Students: Academic resources, CV building, short courses, newsletters
 
@@ -51,7 +52,7 @@ Company dashboards for posting and tracking applicants
 
 AI-driven CV-to-job matching
 
-Media Hub
+## Media Hub
 
 Host podcasts, virtual interviews, and media embeds
 
@@ -59,7 +60,7 @@ Blog publishing with categories
 
 Newsletter access and event galleries
 
-Events Module
+## Events Module
 
 List and manage upcoming workshops, conferences, and forums
 
@@ -73,7 +74,7 @@ Recruitment partnership request form
 
 Volunteer and mentor applications
 
-Contact Us
+## Contact Us
 
 Integrated contact form (HubSpot CRM)
 
@@ -81,7 +82,7 @@ Social media links
 
 Newsletter subscription form
 
-Login / Member Portal
+## Login / Member Portal
 
 Students: Access bursaries, resources, and events
 
@@ -89,7 +90,7 @@ Companies: Manage job postings and access CV database
 
 Premium Members (Future): Exclusive mentorship content
 
-API Endpoints
+## API Endpoints
 Endpoint	Method	Description
 /auth/register	POST	Register a new user (student, professional, company)
 /auth/login	POST	Login and receive JWT token
